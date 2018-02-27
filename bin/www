@@ -1,0 +1,6 @@
+var app = require('../server/server');
+var colors = require('colors');
+
+app.listen(process.env.PORT, process.env.IP, function() {
+    console.log('server listening :))))))))))))))))))))))'.rainbow);
+});
