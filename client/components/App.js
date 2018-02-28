@@ -63,7 +63,8 @@ export default class App extends React.Component {
                             value={this.state.minutes} // don't let it go below 0
                             id='minutes' 
                             type='number' 
-                            step="1"
+                            step='1'
+                            min='1'
                         />
                     minutes, then watch all your worries disappear...
                     <span id="countdown">{this.state.minutes}:{this.state.secondsDisplayed}!</span>
